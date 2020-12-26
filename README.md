@@ -2,7 +2,7 @@
 - [x] Subarray with given sum
 - [x] Count the triplets
 - [x] Kadane’s Algorithm
-- [ ] Missing number in array
+- [x] Missing number in array
 - [ ] Merge two sorted arrays
 - [ ] Rearrange array alternatively
 - [ ] Number of pairs
