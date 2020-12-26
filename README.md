@@ -1,5 +1,5 @@
 # Problems
-- [ ] Subarray with given sum
+- [x] Subarray with given sum
 - [ ] Count the triplets
 - [ ] Kadane’s Algorithm
 - [ ] Missing number in array
