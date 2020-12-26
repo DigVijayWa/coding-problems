@@ -1,7 +1,7 @@
 # Problems
 - [x] Subarray with given sum
 - [x] Count the triplets
-- [ ] Kadane’s Algorithm
+- [x] Kadane’s Algorithm
 - [ ] Missing number in array
 - [ ] Merge two sorted arrays
 - [ ] Rearrange array alternatively
