@@ -2,7 +2,7 @@
     Given an unsorted array A of size N of non-negative integers, 
     find a continuous sub-array which adds to a given number S.
 */
-
+var assert = require('assert');
 function findSubArray(arrayItems, sum) {
     var finalArray = [];
     arrayItems.forEach((element, index) => {
@@ -36,3 +36,4 @@ function findSubArray(arrayItems, sum) {
 var items = [1,2,3,4,5,6,7,8,9,10];
 
 console.log(findSubArray(items, 15));
+assert.deepEqual(findSubArray(items, 15), [ [ 1, 2, 3, 4, 5 ], [ 4, 5, 6 ], [ 7, 8 ] ], "Expected array does not match received");
