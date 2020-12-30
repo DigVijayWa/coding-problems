@@ -7,4 +7,5 @@
 - [x] Merge two sorted arrays
 - [x] Find kth largest number
 
-## 
+## String
+- [x] String builder
