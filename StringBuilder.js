@@ -33,7 +33,7 @@ function decision(str, currentStr, priceA, priceB, index, totalLength) {
         }
         else if(obj.count > 1) {
             
-            return priceB + decision(str, currentStr, priceA, priceB, index+obj.count, totalLength);
+            return priceA * obj.count >= priceB ?  priceB + decision(str, currentStr, priceA, priceB, index+obj.count, totalLength) : (priceA*obj.count) + decision(str, currentStr, priceA, priceB, index+obj.count, totalLength);
         }
         else {
             currentStr += str[index];
