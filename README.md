@@ -6,6 +6,7 @@
 - [x] Missing number in array
 - [x] Merge two sorted arrays
 - [x] Find kth largest number
+- [x] ArraySub
 
 ## String
 - [x] String builder
