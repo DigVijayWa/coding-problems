@@ -4,5 +4,8 @@
   "description": "",
   "keywords": [],
   "author": "Digvijay Wadakar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^5.0.2"
+  }
 }
